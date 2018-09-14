@@ -1,0 +1,358 @@
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    background:#EFEDED;
+    font-family: 'Lato',"Times New Roman",serif;
+}
+
+:root {
+    font-family: sans-serif;
+}
+/*Header-start*/
+header {
+    height:300px;
+}
+
+.top-content ul {
+    text-align: right;
+}
+.top-container-nav {
+    list-style-type: none;
+    padding:0;
+    margin:0;
+    margin-top: 15px;
+}
+
+.top-container-nav li {
+    display: inline;
+    
+}
+.top-container-nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: green;
+    margin:10px;
+}
+.top-container-nav a:hover {
+    color:#F4E23E;
+}
+
+.logo {
+    padding-left: 40px;
+}
+.socialmedia1 {
+    list-style-type: none;
+    float: right;
+    margin-right: 20px;
+    margin-top: 75px;
+}
+.socialmedia1 li {
+  display: inline;
+}
+.socialmedia1 li a {
+    text-decoration: none;
+}
+.sitename {
+  text-align: center;
+}
+.beforeslider {
+  margin-bottom: 20px;
+}
+.slider-quicklinks {
+  width:1200px;
+  margin:auto;
+}
+/*Header---end*/
+.sitename {
+  font-family: 'Arvo', serif;
+  font-size: 40px;
+  text-align: center;
+  color: green;
+}
+.main-content {
+  max-width: 1200px;
+  margin:0 auto;
+  padding-bottom: 20px;
+  float: left;
+}
+
+/*Slideshow in main-content---start*/
+.slideshow-container {
+  position: relative;
+  margin: auto;
+  float: left;
+}
+.slidesmain {
+    display: none;
+}
+.text {
+  color: green;
+  font-size: 45px;
+  padding: 15px 12px;
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+/*Slideshow in main-content---end*/
+
+/*Quicklinks---start*/
+.slider-quicklinks {
+  height:500px;
+}
+.quicklinks  {
+  list-style-type: none;
+  float:right;
+  margin:0;
+  padding:0;
+}
+.quicklinks li {
+  font-family: "New Times Roman", 'Lustria', serif; 
+  font-size: 16px;
+  padding: 20px;
+  border-bottom: 2px dotted;
+}
+.quicklinks li a:hover {
+  color:#F4E23E;
+}
+.quicklinks a {
+  text-decoration: none;
+  color: green;
+}
+.last-child-cust {
+  border-bottom: none;
+}
+/*Quicklinks---end*/
+
+/*class homeBlock---start*/
+.homeBlock {
+  padding:0;
+  margin:0;
+}
+.topPanel h1 {
+  font-size: 20px;
+  padding: 17px;
+}
+.maincontainer {
+  display: flex;
+  flex-direction: row;
+}
+.bl {
+  padding:5px 30px;
+  border-radius:3px;
+  margin:10px;
+  background:#f9f9f4;
+}
+
+.maincontainer a {
+  text-decoration: none;
+  color:green;
+}
+.maincontainer a:hover {
+  color:#F4E23E;
+}
+.bottomPanel {
+  background:#afaf93;
+}
+.howtobrew h2 {
+  color: #fff;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.videotwo {
+  margin-left: 30px;
+}
+.informab {
+  font-size: 20px;
+  padding: 17px;
+}
+/*main-end*/
+.contactus {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+}
+.contactus {
+  font-size: 20px;
+}
+.columncon {
+  text-align: center;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    float: left;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 2px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #F4E23E;
+}
+
+@media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+.lastend {
+  text-align: center;
+  padding-top: 20px;
+  font-weight: bold;
+}
+/*arrow to top - start*/
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: green;
+    background: green;
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}
+.scrollToTop {
+    width:100px; 
+    height:130px;
+    padding:10px; 
+    text-align:center; 
+    background: whiteSmoke;
+    font-weight: bold;
+    color: green;
+    text-decoration: none;
+    position:fixed;
+    top:75px;
+    right:40px;
+    display:none;
+    background: url('arrow_up.png') no-repeat 0px 20px;
+}
+.scrollToTop:hover{
+    text-decoration:none;
+}
+/*arrow to top - end*/
+
+/*mobile-start*/
+/*600px*/
+@media only screen and (max-width: 600px) {
+    .maincontainer{
+        display: flex;
+        flex-direction:row;
+        flex-wrap:wrap;
+        width:30%;
+    }
+}
+/*700px*/
+@media only screen and (max-width: 700px){
+    .maincontainer{
+        display: flex;
+        flex-direction:row;
+        flex-wrap:wrap;
+    }
+}
+@media only screen and (max-width: 700px){
+    .bottomPanel{
+        display: flex;
+        flex-direction:row;
+        flex-wrap:wrap;
+        width:45%;
+    }
+}
+@media only screen and (max-width: 700px){
+    .howtobrew{
+        display: flex;
+        flex-direction:row;
+        flex-wrap:wrap;
+        width:45%;
+    }
+}
+@media only screen and (max-width: 700px){
+    .howtobrew h2{
+        text-align: center;
+    }
+}
+.slidesmain_fade{
+    width: 100%;
+}
+@media only screen and (max-width: 500px){
+    h1{
+        display: flex;
+        justify-content: space-between;
+        font-weight: normal;
+        font-size: 3rem;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 380px){
+    h1{
+        display: flex;
+        justify-content: space-between;
+        font-weight: normal;
+        font-size: 2.5rem;
+        width: 100%;
+        text-align: center;
+    }
+}
